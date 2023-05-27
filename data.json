@@ -1,0 +1,63 @@
+{
+    "user" : {
+        "fullName": "Mabidikama Mpho",
+        "photo" : "/images/Mpho.jpeg"
+    },
+    "city" : {
+        "name" : "Cape Town Mother City",
+        "photo" : "/images/Cape town.jpg",
+        "description" : "Cape Town is home to some of the most beautiful beaches on the planet. The city straddles the freezing Atlantic Ocean and the slightly warmer Indian Ocean, so your choice of beach may be determined by how badly you want to swim. Famous for its sun, sea and scenery, Cape Town is a beloved tourist destination for visitors the world over. Therefore, no surprise that this coastal gem has been voted the best city in the world seven-years-running!"
+    },
+    "foreignLanguage" : {
+        "language" : "Italian",
+        "phrases" : [{
+            "englishPhrase" : "You must be the change you wish to see in the world",
+            "foreignLanguage" : "Devi essere il cambiamento che desideri vedere nel mondo'"
+        },
+        {
+            "englishPhrase" : "Any idiot can build a bridge that stands, but it takes an engineer to build a bridge that barely stands",
+            "foreignLanguage" : "Qualsiasi idiota può costruire un ponte che sta in piedi, ma ci vuole un ingegnere per costruire un ponte che sta in piedi a malapena."
+        },
+        {
+            "englishPhrase" : "Scientists dream about doing great things. Engineers do them.",
+            "foreignLanguage" : "Gli scienziati sognano di fare grandi cose. Gli ingegneri li fanno."
+        }
+    
+    ]
+    },
+    "course": "BENG TECH CIVIL Engineering",
+    "Institution": "University of Johannesburg",
+
+    "favouriteSubjects" : [
+        {
+            "name" : "Transportation Engineering",
+            "photo" : "/images/Transportation Engineering.jpg",
+            "description" : "A branch of civil engineering that involves the planning, design, operation, and maintenance of transportation systems to help build smart, safe, and livable communities."
+        },
+        {
+            "name" : "Geotechnical Engineering",
+            "photo" : "/images/Geotechnical Engineering.jpg",
+            "description" : "The study of the behaviour of soils under the influence of loading forces and soil-water interactions."
+        },
+        {
+            "name" : "Structural Analysis",
+            "photo" : "/images/Structural Analysis.jpg",
+            "description" : "Structural analysis is the process of calculating and determining the effects of loads and internal forces on a structure, building or object."
+        },
+        {
+            "name" : "Project Management",
+            "photo" : "/images/Project Management.jpg",
+            "description" : "The process of leading the work of a team to achieve all project goals within the given constrain."
+        },
+        {
+            "name" : "Contract Management",
+            "photo" : "/images/Contract Management.webp",
+            "description" : "The process of managing agreements, from their creation to their execution by the chosen party and the eventual termination of the contract."
+        },
+        {
+            "name" : "Autodesk Civil 3D",
+            "photo" : "/images/Autodesk Civil 3D.avif",
+            "description" : "A civil engineering design and documentation solution that supports Building Information Modeling (BIM) workflows on a variety of civil infrastructure project types, including roads and highways, land development, rail, airports, and water."
+        }
+    ]
+}

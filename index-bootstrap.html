@@ -13,10 +13,10 @@
 <br>
         <div class="row mb-4" >
             <div class="col-md-6">
-                <h1>{{user.fullName}}</h1>
+                <h1>{{data.user.fullName}}</h1>
             </div>
             <div class="col-md-6 text-center">
-                <img src="{{user.photo}}" class="rounded col-8" alt="...">
+                <img src="{{data.user.photo}}" class="rounded col-8" alt="...">
               </div>
 
         </div>
@@ -27,10 +27,10 @@
 <h1>{{city.name}}</h1>
             <div class="col-md-5 ">
              
-                <img src="{{city.photo}}" class="rounded col-md-12 " alt="Cape Town">
+                <img src="{{data.city.photo}}" class="rounded col-md-12 " alt="Cape Town">
             </div>
             <div class="text-center col-md-6 ">
-            <p>{{city.description}}</p>
+            <p>{{data.city.description}}</p>
             </div>
 
         </div>
@@ -43,8 +43,9 @@
                 
                 <br>
                 <br>
+                <br>
                 <h1>Foreign language to be Learnt:</h1>
-                <h3>{{foreignLanguage.language}}</h3>
+                <h3>{{data.foreignLanguage.language}}</h3>
                 
 
                 <table class="table table-primary ">
@@ -55,7 +56,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                    {{#each foreignLanguage.phrases}}
+                    {{#each data.foreignLanguage.phrases}}
                       <tr>
                         <td>{{englishPhrase}}</td>
                         <td>{{foreignLanguage}}</td>
@@ -67,8 +68,8 @@
             </div>
             
             <div class="text-center text-bg-secondary">
-            <h1>{{course}}</h1>
-                  <h2>{{Institution}}</h2>
+            <h1>{{data.course}}</h1>
+                  <h2>{{data.Institution}}</h2>
                   <h3>Favourite Subjects</h3>
 
             </div>
@@ -83,7 +84,7 @@
 
             <div class="row ">
                 <br>
-                {{#each favouriteSubjects}}
+                {{#each data.favouriteSubjects}}
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-4 order border-primary">

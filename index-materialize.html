@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body style="background-image: url(/images/Table-Mountain.jpg); background-size: fixed;">
-    <main class="container">
+    <main class="container white-text">
 <h1>materialize</h1> 
         <div class="row" >
-            <div class="col s12 m6">
+            
+            <div class="col s12 m6 btn-floating btn-large cyan pulse datepicker">
                 <h1>{{data.user.fullName}}</h1>
             </div>
             <br>
 
-            <div class="text-center col s12 m6">
-                <img src="{{data.user.photo}}" class="rounded col m8" alt="...">
+            <div class="text-center col s12 m4">
+                <img class="responsive-img" src="{{data.user.photo}}" class="rounded col m8" alt="...">
               </div>
 
         </div>
@@ -25,12 +26,13 @@
       
         <div class="row">
 <br>
+<div class="white-text"></div>
 <h1>{{data.city.name}}</h1>
-<div class="col s12 m6 ">
+<div class="col s12 m5 ">
 
-    <img src="{{data.city.photo}}" class="rounded col m12 " alt="Cape Town">
+    <img class="responsive-img" src="{{data.city.photo}}" class="rounded col m12 valign-wrapper" alt="Cape Town">
             </div>
-            <div class="text-center card #039be5 light-blue darken-1 col s12 m6 ">
+            <div class="text-center card #039be5 light-blue darken-1 col s11 m7 ">
             <p>{{data.city.description}}</p>
             </div>
 
@@ -40,7 +42,7 @@
 
         <div>
 
-            <div >
+            <div class="white-text">
                 <h1>Foreign language to be Learnt:</h1>
                 <h3>{{data.foreignLanguage.language}}</h3>
                 
@@ -63,8 +65,7 @@
                   </table>
                   
             </div>
-            
-            <div class="text-center card #009688 teal">
+            <div class="text-center card #009688 teal white-text ">
             <h1>{{data.course}}</h1>
                   <h2>{{data.Institution}}</h2>
                   <h3>Favourite Subjects</h3>
@@ -73,11 +74,14 @@
 
         </div>
 
-        <div class="row">
+        <div class="row flow-text">
                 {{#each data.favouriteSubjects}}
+
             <div class="col s12 m7">
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text"> 
+                    
+                    <img src="{{data.favouriteSubjects.photo}}" class="rounded col s12 m12" alt="Subject">
                   <span class="card-title">{{name}}</span>
                   <p></p>{{description}}</p>
                 </div>

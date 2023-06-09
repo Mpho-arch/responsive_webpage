@@ -60,13 +60,14 @@
             "name" : "Autodesk Civil 3D",
             "photo" : "/images/Autodesk Civil 3D.avif",
             "description" : "A civil engineering design and documentation solution that supports Building Information Modeling (BIM) workflows on a variety of civil infrastructure project types, including roads and highways, land development, rail, airports, and water."
-        },
+        }
         
-        {
+        
+    
+    ],
+    "footer": {
             "thanks" : "Gratitude to you customers for taking your time to visit the webpage",
             "photo" : "/images/thank-you.jpg",
             "description" : "Feel free to visit the webpage again"
         }
-    
-    ]
 }
